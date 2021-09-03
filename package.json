@@ -1,0 +1,19 @@
+{
+  "name": "excellencetest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "debug": "nodemon src/app.js"
+  },
+  "author": "ayush",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "glob": "^7.1.7",
+    "mongoose": "^6.0.4",
+    "mongoose-auto-increment": "^5.0.1",
+    "nodemon": "^2.0.12"
+  }
+}
